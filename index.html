@@ -6,90 +6,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CodeQuiz</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-    <div id = "main">
-        <h1>greetings</h1>
-        <h2>instructions</h2>
-        <button id = "startbtn">start</button>
-    </div>
+    <div class="container">
+        <div class="row">
 
-    <div id = "item01">
-        <h2 id = "question1">QUESTION1</h2>
-        <ol id = "question1-1">
-            <li><button>1</button></li>
-            <li><button>2</button></li>
-            <li><button>3</button></li>
-            <li><button>4</button></li>
-        </ol>
+            <div class="col-3">
+                <p>Scores</p>
+            </div>
+            <div class="col-6">
+                <p></p>
+            </div>
+            <div class="col-3">
+                <p id = "timer">Timer: 75 sec</p>
+            </div>
+        </div>
 
-        <p id = "correctwrong">correct/wrong</p>
 
-    </div>
-    
-    <div id = "item02">
-        <h2 id = "question2">QUESTION2</h2>
-        <ol id = "question2-2">
-            <li><button>1</button></li>
-            <li><button>2</button></li>
-            <li><button>3</button></li>
-            <li><button>4</button></li>
-        </ol>
+        <div class="row">
 
-        <p id = "correctwrong">correct/wrong</p>
+            <div class="col-3">
 
-    </div>
+            </div>
 
-    <div id = "item03">
-        <h2 id = "question3">QUESTION3</h2>
-        <ol id = "question3-3">
-            <li><button>1</button></li>
-            <li><button>2</button></li>
-            <li><button>3</button></li>
-            <li><button>4</button></li>
-        </ol>
 
-        <p id = "correctwrong">correct/wrong</p>
+            <div class="col-6">
 
-    </div>
 
-    <div id = "item04">
-        <h2 id = "question4">QUESTION4</h2>
-        <ol id = "question4-4"></ol>
-            <li><button>1</button></li>
-            <li><button>2</button></li>
-            <li><button>3</button></li>
-            <li><button>4</button></li>
-        </ol>
+                <br>
+                <br>
+                <br>
 
-        <p id = "correctwrong">correct/wrong</p>
 
-    </div>
 
-    <div id = "item05">
-        <h2 id = "question5">QUESTION5</h2>
-        <ol id = "question5-5">
-            <li><button>1</button></li>
-            <li><button>2</button></li>
-            <li><button>3</button></li>
-            <li><button>4</button></li>
-        </ol>
+                <div>
+                    <div id="main">
+                        <h1>Hello</h1>
+                        <h2>5 questions. Correct answers 10 pts. Incorrect answers -8 pts and 15 sec penalty.</h2>
+                        <button id="startbtn">start</button>
+                    </div>
 
-        <p id = "correctwrong">correct/wrong</p>
+                    <div id="currentscore">
+                        <h2 id="score"></h2>
+                    </div>
 
-    </div>
+                    <div id="item01">
+                        <h2 id="question1">QUESTION1</h2>
+                        <ol id="question1-1">
+                            <li><button id="pick11">a</button></li>
+                            <li><button id="pick12">b</button></li>
+                            <li><button id="pick13">c</button></li>
+                            <li><button id="pick14">d</button></li>
+                        </ol>
 
-    <div id = "resultpage">
+                        
 
-        <h2>All Done!</h2>
-        <h2 id = result>result</h2>
-        <h2>enter initial<input></h2>
+                    </div>
 
+                    <div id="item02">
+                        <h2 id="question2">QUESTION2</h2>
+                        <ol id="question2-2">
+                            <li><button id="pick21">a</button></li>
+                            <li><button id="pick22">b</button></li>
+                            <li><button id="pick23">c</button></li>
+                            <li><button id="pick24">d</button></li>
+                        </ol>
+
+                        
+
+                    </div>
+
+                    <div id="item03">
+                        <h2 id="question3">QUESTION3</h2>
+                        <ol id="question3-3">
+                            <li><button id="pick31">a</button></li>
+                            <li><button id="pick32">b</button></li>
+                            <li><button id="pick33">c</button></li>
+                            <li><button id="pick34">d</button></li>
+                        </ol>
+
+                        
+
+                    </div>
+
+                    <div id="item04">
+                        <h2 id="question4">QUESTION4</h2>
+                        <ol id="question4-4">
+                            <li><button id="pick41">a</button></li>
+                            <li><button id="pick42">b</button></li>
+                            <li><button id="pick43">c</button></li>
+                            <li><button id="pick44">d</button></li>
+                        </ol>
+
+                        
+
+                    </div>
+
+                    <div id="item05">
+                        <h2 id="question5">QUESTION5</h2>
+                        <ol id="question5-5">
+                            <li><button id="pick51">a</button></li>
+                            <li><button id="pick52">b</button></li>
+                            <li><button id="pick53">c</button></li>
+                            <li><button id="pick54">d</button></li>
+                        </ol>
+
+                        
+
+                    </div>
+                </div>
+
+                <div id="resultpage">
+
+                    
+                    <h2 id= "result">result</h2>
+                    <h2 id ="finalscore"></h2>
+                    <h2 id ="initials">enter initial<input id = "inputbox"></h2>
+
+                </div>
+
+                <div id="scores">
+                        <h2 id= "scoreb">Scoreboard</h2>
+                        <ul id = "playerslist">
+                    </div>
+
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
     </div>
 
     <script src=questions.js></script>
