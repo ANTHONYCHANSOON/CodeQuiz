@@ -87,28 +87,28 @@ startbutton.addEventListener("click", function () {
 
 // #1
 pick11.addEventListener("click", function () {
-    alert("correct");
+    //alert("correct");
     hidealldiv();
     item1.remove();
     item2.style.visibility = "visible";
     correctanswer();
 })
 pick12.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item1.remove();
     item2.style.visibility = "visible";
     incorrectanswer();
 })
 pick13.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item1.remove();
     item2.style.visibility = "visible";
     incorrectanswer();
 })
 pick14.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item1.remove();
     item2.style.visibility = "visible";
@@ -117,28 +117,28 @@ pick14.addEventListener("click", function () {
 
 // #2
 pick21.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item2.remove();
     item3.style.visibility = "visible";
     incorrectanswer();
 })
 pick22.addEventListener("click", function () {
-    alert("correct");
+    //alert("correct");
     hidealldiv();
     item2.remove();
     item3.style.visibility = "visible";
     correctanswer();
 })
 pick23.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item2.remove();
     item3.style.visibility = "visible";
     incorrectanswer();
 })
 pick24.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item2.remove();
     item3.style.visibility = "visible";
@@ -147,28 +147,28 @@ pick24.addEventListener("click", function () {
 
 // #3
 pick31.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item3.remove();
     item4.style.visibility = "visible";
     incorrectanswer();
 })
 pick32.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item3.remove();
     item4.style.visibility = "visible";
     incorrectanswer();
 })
 pick33.addEventListener("click", function () {
-    alert("correct");
+    //alert("correct");
     hidealldiv();
     item3.remove();
     item4.style.visibility = "visible";
     correctanswer();
 })
 pick34.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item3.remove();
     item4.style.visibility = "visible";
@@ -177,28 +177,28 @@ pick34.addEventListener("click", function () {
 
 // #4
 pick41.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item4.remove();
     item5.style.visibility = "visible";
     incorrectanswer();
 })
 pick42.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item4.remove();
     item5.style.visibility = "visible";
     incorrectanswer();
 })
 pick43.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item4.remove();
     item5.style.visibility = "visible";
     incorrectanswer();
 })
 pick44.addEventListener("click", function () {
-    alert("correct");
+    //alert("correct");
     hidealldiv();
     item4.remove();
     item5.style.visibility = "visible";
@@ -207,7 +207,7 @@ pick44.addEventListener("click", function () {
 
 // #5
 pick51.addEventListener("click", function () {
-    alert("correct");
+    //alert("correct");
     hidealldiv();
     item5.remove();
     correctanswer();
@@ -215,7 +215,7 @@ pick51.addEventListener("click", function () {
     stoptime();
 })
 pick52.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item5.remove();
     incorrectanswer();
@@ -223,7 +223,7 @@ pick52.addEventListener("click", function () {
     stoptime();
 })
 pick53.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item5.remove();
     incorrectanswer();
@@ -231,7 +231,7 @@ pick53.addEventListener("click", function () {
     stoptime();
 })
 pick54.addEventListener("click", function () {
-    alert("wrong");
+    //alert("wrong");
     hidealldiv();
     item5.remove();
     incorrectanswer();
